@@ -1,1 +1,1 @@
-aetheric 
+aetheric https://raw.githubusercontent.com/fluorek/utils/refs/heads/main/aetheric/capes/aetheric.png
